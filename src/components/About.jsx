@@ -7,7 +7,7 @@ export default function About() {
     backgroundColor:"white"
   }) 
   const handleTheme = ()=>{
-    if(mystyle.color == "black"){
+    if(mystyle.color === "black"){
       Setmystyle({
         color:"white",
         backgroundColor:"black"
